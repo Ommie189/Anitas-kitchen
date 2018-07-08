@@ -39,5 +39,50 @@ border-style: solid;
 border-width: 5px;
 border-radius: 5px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F15A29;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-menu a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #000000;
+display: block;
+transition: 0.3s;
+}
+
+.overlay-menu a:hover, .overlay-menu a:focus {
+color: #f1f1f1;
+}
+
+.overlay-menu .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+.bg-00{
+  background-color: #F15A29;
+}
+.happy{
+  height:119px;
+  width:300px
 }
